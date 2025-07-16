@@ -1,6 +1,6 @@
-PWD c:\Users\Bagus Alifah Hasyim\Documents\Computational Engineering RUB\04 - 02 Computational Plasticity\Assignment1\report_File_2\computational-plasticity
+PWD c:\Users\Bagus Alifah Hasyim\Documents\Computational Engineering RUB\04 - 02 Computational Plasticity\FinalAssignment\Plasticity-Portfolio
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Bagus Alifah Hasyim\Documents\Computational Engineering RUB\04 - 02 Computational Plasticity\Assignment1\report_File_2\computational-plasticity\main.tex
+INPUT c:\Users\Bagus Alifah Hasyim\Documents\Computational Engineering RUB\04 - 02 Computational Plasticity\FinalAssignment\Plasticity-Portfolio\main.tex
 OUTPUT main.log
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -81,160 +81,16 @@ INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\publi
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\images\TaskQ1.png
-INPUT .\images\TaskQ1.png
-INPUT .\images\TaskQ1.png
-INPUT .\images\TaskQ1.png
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 OUTPUT main.pdf
-INPUT .\images\TaskQ1.png
-INPUT .\images\TaskQ1.png
-INPUT .\images\TaskQ1.png
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\images\TaskQ2.png
-INPUT .\images\TaskQ2.png
-INPUT .\images\TaskQ2.png
-INPUT .\images\TaskQ2.png
-INPUT .\images\TaskQ2.png
-INPUT .\images\TaskQ2.png
-INPUT .\images\TaskQ2.png
-INPUT .\images\MeshQ1.png
-INPUT .\images\MeshQ1.png
-INPUT .\images\MeshQ1.png
-INPUT .\images\MeshQ1.png
-INPUT .\images\MeshQ1.png
-INPUT .\images\MeshQ1.png
-INPUT .\images\MeshQ1.png
-INPUT .\images\MeshQ2.1.png
-INPUT .\images\MeshQ2.1.png
-INPUT .\images\MeshQ2.1.png
-INPUT .\images\MeshQ2.1.png
-INPUT .\images\MeshQ2.1.png
-INPUT .\images\MeshQ2.1.png
-INPUT .\images\MeshQ2.1.png
-INPUT .\images\MeshQ2.2.png
-INPUT .\images\MeshQ2.2.png
-INPUT .\images\MeshQ2.2.png
-INPUT .\images\MeshQ2.2.png
-INPUT .\images\MeshQ2.2.png
-INPUT .\images\MeshQ2.2.png
-INPUT .\images\MeshQ2.2.png
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated_modified.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated_modified.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated_modified.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated_modified.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated_modified.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated_modified.png
-INPUT .\visualize_tensileGraph\res\comparison_direct_calculated_modified.png
-INPUT .\visualize_tensileGraph\res\comparison_planeStress_planeStrain.png
-INPUT .\visualize_tensileGraph\res\comparison_planeStress_planeStrain.png
-INPUT .\visualize_tensileGraph\res\comparison_planeStress_planeStrain.png
-INPUT .\visualize_tensileGraph\res\comparison_planeStress_planeStrain.png
-INPUT .\visualize_tensileGraph\res\comparison_planeStress_planeStrain.png
-INPUT .\visualize_tensileGraph\res\comparison_planeStress_planeStrain.png
-INPUT .\visualize_tensileGraph\res\comparison_planeStress_planeStrain.png
-INPUT .\visualize_tensileGraph\res\comparison_inclusion_non.png
-INPUT .\visualize_tensileGraph\res\comparison_inclusion_non.png
-INPUT .\visualize_tensileGraph\res\comparison_inclusion_non.png
-INPUT .\visualize_tensileGraph\res\comparison_inclusion_non.png
-INPUT .\visualize_tensileGraph\res\comparison_inclusion_non.png
-INPUT .\visualize_tensileGraph\res\comparison_inclusion_non.png
-INPUT .\visualize_tensileGraph\res\comparison_inclusion_non.png
-INPUT .\images\MISES.png
-INPUT .\images\MISES.png
-INPUT .\images\MISES.png
-INPUT .\images\MISES.png
-INPUT .\images\MISES.png
-INPUT .\images\MISES.png
-INPUT .\images\MISES.png
-INPUT .\images\S11.png
-INPUT .\images\S11.png
-INPUT .\images\S11.png
-INPUT .\images\S11.png
-INPUT .\images\S11.png
-INPUT .\images\S11.png
-INPUT .\images\S11.png
-INPUT .\images\S12.png
-INPUT .\images\S12.png
-INPUT .\images\S12.png
-INPUT .\images\S12.png
-INPUT .\images\S12.png
-INPUT .\images\S12.png
-INPUT .\images\S12.png
-INPUT .\images\S22.png
-INPUT .\images\S22.png
-INPUT .\images\S22.png
-INPUT .\images\S22.png
-INPUT .\images\S22.png
-INPUT .\images\S22.png
-INPUT .\images\S22.png
-INPUT .\images\MISES_Coarse.png
-INPUT .\images\MISES_Coarse.png
-INPUT .\images\MISES_Coarse.png
-INPUT .\images\MISES_Coarse.png
-INPUT .\images\MISES_Coarse.png
-INPUT .\images\MISES_Coarse.png
-INPUT .\images\MISES_Coarse.png
-INPUT .\images\MISES_Fine.png
-INPUT .\images\MISES_Fine.png
-INPUT .\images\MISES_Fine.png
-INPUT .\images\MISES_Fine.png
-INPUT .\images\MISES_Fine.png
-INPUT .\images\MISES_Fine.png
-INPUT .\images\MISES_Fine.png
-INPUT .\images\PEEQ_Coarse.png
-INPUT .\images\PEEQ_Coarse.png
-INPUT .\images\PEEQ_Coarse.png
-INPUT .\images\PEEQ_Coarse.png
-INPUT .\images\PEEQ_Coarse.png
-INPUT .\images\PEEQ_Coarse.png
-INPUT .\images\PEEQ_Coarse.png
-INPUT .\images\PEEQ_Fine.png
-INPUT .\images\PEEQ_Fine.png
-INPUT .\images\PEEQ_Fine.png
-INPUT .\images\PEEQ_Fine.png
-INPUT .\images\PEEQ_Fine.png
-INPUT .\images\PEEQ_Fine.png
-INPUT .\images\PEEQ_Fine.png
 INPUT main.aux
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb

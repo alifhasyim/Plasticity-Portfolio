@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  15 JUN 2025 21:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  13 JUL 2025 20:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment1/report_File_2/computational-plasticity/main.tex"
-(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment1/report_File_2/computational-plasticity/main.tex
+**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio/main.tex"
+(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -202,14 +202,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 ) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count307
-) (main.aux
-
-LaTeX Warning: Label `fig:ComparisonDirectCalculated' multiply defined.
-
-
-LaTeX Warning: Label `tab:pointA-results' multiply defined.
-
-)
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -287,162 +280,41 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/TaskQ1.png, id=1, 362.5545pt x 320.1561pt>
-File: images/TaskQ1.png Graphic file (type png)
-<use images/TaskQ1.png>
-Package pdftex.def Info: images/TaskQ1.png  used on input line 60.
-(pdftex.def)             Requested size: 234.8775pt x 207.41017pt.
 
+LaTeX Warning: Citation `Hill1950' on page 1 undefined on input line 47.
+
+(main.bbl
 
 [1
 
 {C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<images/TaskQ2.png, id=14, 377.0085pt x 320.6379pt>
-File: images/TaskQ2.png Graphic file (type png)
-<use images/TaskQ2.png>
-Package pdftex.def Info: images/TaskQ2.png  used on input line 70.
-(pdftex.def)             Requested size: 234.8775pt x 199.76215pt.
 
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-[2 <./images/TaskQ1.png> <./images/TaskQ2.png>]
-Overfull \hbox (9.73279pt too wide) in paragraph at lines 105--113
- [][] 
- []
+)
 
-<images/MeshQ1.png, id=20, 843.15pt x 467.94826pt>
-File: images/MeshQ1.png Graphic file (type png)
-<use images/MeshQ1.png>
-Package pdftex.def Info: images/MeshQ1.png  used on input line 148.
-(pdftex.def)             Requested size: 469.75502pt x 260.71399pt.
-
-
-[3]
-<images/MeshQ2.1.png, id=25, 841.34325pt x 464.937pt>
-File: images/MeshQ2.1.png Graphic file (type png)
-<use images/MeshQ2.1.png>
-Package pdftex.def Info: images/MeshQ2.1.png  used on input line 160.
-(pdftex.def)             Requested size: 225.4804pt x 124.5982pt.
-<images/MeshQ2.2.png, id=26, 841.34325pt x 465.53925pt>
-File: images/MeshQ2.2.png Graphic file (type png)
-<use images/MeshQ2.2.png>
-Package pdftex.def Info: images/MeshQ2.2.png  used on input line 167.
-(pdftex.def)             Requested size: 225.4804pt x 124.7596pt.
-
-
-[4 <./images/MeshQ1.png> <./images/MeshQ2.1.png> <./images/MeshQ2.2.png>]
-<visualize_tensileGraph/res/comparison_direct_calculated.png, id=33, 867.24pt x 578.16pt>
-File: visualize_tensileGraph/res/comparison_direct_calculated.png Graphic file (type png)
-<use visualize_tensileGraph/res/comparison_direct_calculated.png>
-Package pdftex.def Info: visualize_tensileGraph/res/comparison_direct_calculated.png  used on input line 186.
-(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
-
-
-[5 <./visualize_tensileGraph/res/comparison_direct_calculated.png>]
-<visualize_tensileGraph/res/comparison_direct_calculated_modified.png, id=39, 476.982pt x 344.0052pt>
-File: visualize_tensileGraph/res/comparison_direct_calculated_modified.png Graphic file (type png)
-<use visualize_tensileGraph/res/comparison_direct_calculated_modified.png>
-Package pdftex.def Info: visualize_tensileGraph/res/comparison_direct_calculated_modified.png  used on input line 220.
-(pdftex.def)             Requested size: 399.29463pt x 287.9808pt.
-
-
-[6 <./visualize_tensileGraph/res/comparison_direct_calculated_modified.png>]
-<visualize_tensileGraph/res/comparison_planeStress_planeStrain.png, id=44, 867.24pt x 578.16pt>
-File: visualize_tensileGraph/res/comparison_planeStress_planeStrain.png Graphic file (type png)
-<use visualize_tensileGraph/res/comparison_planeStress_planeStrain.png>
-Package pdftex.def Info: visualize_tensileGraph/res/comparison_planeStress_planeStrain.png  used on input line 234.
-(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
-
-
-[7 <./visualize_tensileGraph/res/comparison_planeStress_planeStrain.png>]
-<visualize_tensileGraph/res/comparison_inclusion_non.png, id=50, 867.24pt x 578.16pt>
-File: visualize_tensileGraph/res/comparison_inclusion_non.png Graphic file (type png)
-<use visualize_tensileGraph/res/comparison_inclusion_non.png>
-Package pdftex.def Info: visualize_tensileGraph/res/comparison_inclusion_non.png  used on input line 265.
-(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
-
-
-[8 <./visualize_tensileGraph/res/comparison_inclusion_non.png>]
-
-[9]
-<images/MISES.png, id=58, 473.3685pt x 292.6935pt>
-File: images/MISES.png Graphic file (type png)
-<use images/MISES.png>
-Package pdftex.def Info: images/MISES.png  used on input line 316.
-(pdftex.def)             Requested size: 225.4804pt x 139.4194pt.
-<images/S11.png, id=59, 473.97075pt x 290.2845pt>
-File: images/S11.png Graphic file (type png)
-<use images/S11.png>
-Package pdftex.def Info: images/S11.png  used on input line 322.
-(pdftex.def)             Requested size: 225.4804pt x 138.09474pt.
-<images/S12.png, id=60, 473.97075pt x 292.09125pt>
-File: images/S12.png Graphic file (type png)
-<use images/S12.png>
-Package pdftex.def Info: images/S12.png  used on input line 328.
-(pdftex.def)             Requested size: 225.4804pt x 138.95424pt.
-<images/S22.png, id=61, 471.56175pt x 290.88675pt>
-File: images/S22.png Graphic file (type png)
-<use images/S22.png>
-Package pdftex.def Info: images/S22.png  used on input line 334.
-(pdftex.def)             Requested size: 225.4804pt x 139.09142pt.
-
-
-[10 <./images/MISES.png> <./images/S11.png> <./images/S12.png> <./images/S22.png>]
-
-[11]
-
-[12]
-<images/MISES_Coarse.png, id=76, 473.3685pt x 292.6935pt>
-File: images/MISES_Coarse.png Graphic file (type png)
-<use images/MISES_Coarse.png>
-Package pdftex.def Info: images/MISES_Coarse.png  used on input line 471.
-(pdftex.def)             Requested size: 225.4804pt x 139.4194pt.
-<images/MISES_Fine.png, id=77, 473.97075pt x 293.898pt>
-File: images/MISES_Fine.png Graphic file (type png)
-<use images/MISES_Fine.png>
-Package pdftex.def Info: images/MISES_Fine.png  used on input line 477.
-(pdftex.def)             Requested size: 225.4804pt x 139.81375pt.
-<images/PEEQ_Coarse.png, id=78, 473.3685pt x 290.88675pt>
-File: images/PEEQ_Coarse.png Graphic file (type png)
-<use images/PEEQ_Coarse.png>
-Package pdftex.def Info: images/PEEQ_Coarse.png  used on input line 483.
-(pdftex.def)             Requested size: 225.4804pt x 138.55879pt.
-<images/PEEQ_Fine.png, id=79, 470.9595pt x 293.29575pt>
-File: images/PEEQ_Fine.png Graphic file (type png)
-<use images/PEEQ_Fine.png>
-Package pdftex.def Info: images/PEEQ_Fine.png  used on input line 489.
-(pdftex.def)             Requested size: 225.4804pt x 140.41785pt.
-
-
-[13]
-
-[14 <./images/MISES_Coarse.png> <./images/MISES_Fine.png> <./images/PEEQ_Coarse.png> <./images/PEEQ_Fine.png>]
-
-[15]
-
-[16]
-
-[17] (main.aux)
+[2] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4732 strings out of 469923
- 82873 string characters out of 5462358
- 473106 words of memory out of 5000000
- 31531 multiletter control sequences out of 15000+600000
- 633802 words of font info for 64 fonts, out of 8000000 for 9000
+ 4550 strings out of 469923
+ 77519 string characters out of 5462358
+ 461547 words of memory out of 5000000
+ 31355 multiletter control sequences out of 15000+600000
+ 629699 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1224b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (17 pages, 2348135 bytes).
+ 57i,6n,65p,379b,203s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on main.pdf (2 pages, 48041 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
