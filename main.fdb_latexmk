@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1752431853.64877 "main.aux" "main.bbl" "main" 1752431961.89121 0
-  "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/bibtex/bib/feupphdteses/references.bib" 1366811700 2206 985e03fb36d872d306e76cfacc160693 ""
+["bibtex main"] 1754936774.76057 "main.aux" "main.bbl" "main" 1754937406.76285 0
+  "./bibliography_CIBB_file.bib" 1754934491 2715 306998c1259d66f3d1abb2920daf37d5 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1752431961 1265 1f5067377fb29c050b0a277b9ef07bf1 "pdflatex"
+  "main.aux" 1754937405 1370 ad5cd6ad10fa26f258cd06dacf68ec29 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1752431960.99349 "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio/main.tex" "main.pdf" "main" 1752431961.89176 0
-  "C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1752431156 83609 ebbc432e6cbbb238d39535255db2c8bd ""
+["pdflatex"] 1754937405.5425 "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio-2/main.tex" "main.pdf" "main" 1754937406.76361 0
+  "C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754934663 83609 ebbc432e6cbbb238d39535255db2c8bd ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748199441 13166137 27c084a345814fe9230bd168a7204098 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -17,9 +17,11 @@
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1734114575 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1734114575 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -50,10 +52,10 @@
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1730400552 1618 d81d7e8646081fd4049b99a8cd8a91df ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1730400552 15900 3cb191e576c7a313634d2813c55d4bf1 ""
-  "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio/main.tex" 1752431960 1595 38de130f8fd33fd1d9dc9343117b6e63 ""
-  "main.aux" 1752431961 1265 1f5067377fb29c050b0a277b9ef07bf1 "pdflatex"
-  "main.bbl" 1752431853 52 0eba253fc001332e731e8aba3f23127b "bibtex main"
-  "main.tex" 1752431960 1595 38de130f8fd33fd1d9dc9343117b6e63 ""
+  "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio-2/main.tex" 1754937405 4532 0f22ca174e21f0a72659dbb521e71120 ""
+  "main.aux" 1754937405 1370 ad5cd6ad10fa26f258cd06dacf68ec29 "pdflatex"
+  "main.bbl" 1754936775 343 e5302f5665a2af9a30f7f0aa2f965597 "bibtex main"
+  "main.tex" 1754937405 4532 0f22ca174e21f0a72659dbb521e71120 ""
   (generated)
   "main.aux"
   "main.log"

@@ -1,6 +1,6 @@
-PWD c:\Users\Bagus Alifah Hasyim\Documents\Computational Engineering RUB\04 - 02 Computational Plasticity\FinalAssignment\Plasticity-Portfolio
+PWD c:\Users\Bagus Alifah Hasyim\Documents\Computational Engineering RUB\04 - 02 Computational Plasticity\FinalAssignment\Plasticity-Portfolio-2
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Bagus Alifah Hasyim\Documents\Computational Engineering RUB\04 - 02 Computational Plasticity\FinalAssignment\Plasticity-Portfolio\main.tex
+INPUT c:\Users\Bagus Alifah Hasyim\Documents\Computational Engineering RUB\04 - 02 Computational Plasticity\FinalAssignment\Plasticity-Portfolio-2\main.tex
 OUTPUT main.log
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -81,12 +81,13 @@ INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\publi
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+OUTPUT main.pdf
+INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
-OUTPUT main.pdf
-INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT main.aux
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
@@ -94,3 +95,5 @@ INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\pub
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb

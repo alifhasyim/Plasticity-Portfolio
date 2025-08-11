@@ -9,6 +9,7 @@
 \usepackage{setspace} % for spacing control
 \usepackage{indentfirst}
 \usepackage{titlesec}
+
 \setstretch{1.0}       % single line spacing (default)
 \setlength{\parskip}{0pt}   % no space between paragraphs
 \setlength{\parindent}{0em} % set indentation amount
@@ -29,10 +30,43 @@
 \section{Difference between elastic and plastic strain}
 \hspace{2em}To understand the difference between elastic and plastic strain, we can start by visualizing a simple stress-strain
 curve. 
+
+\hspace{2em}
+As the material loaded with some external force, it will start to deform elastically. Here, the relation
+between the stress (Y-Axis) and strain (X-Axis) shown a linear behavior until it reach a point where the materials start to yield.
+The distance between the 0 point and yield point in X direction is called elastic strain. In a microscopic sense, the atoms are
+displaced slightly in the direction of loading, which here there will be no displacement in between the atom. The bond, such 
+as grain boundaries and atomic orientation will remain unchanged in this phase.
+
+\hspace{2em}
+When the material exceeds the yield point, the deformation behavior will change. The material will not deformed elastically anymore, 
+but rather plastically, in a microscopic sense that there will be some dislocation or a significant move in between the atomic bond
+inside the material. Hence, this stage generates a non-linear stress-strain relationship, by means that the material will experience
+a permanent deformation, in other words a non-reversible process. As the material unloaded, the loading curve will be reversed, which
+the slope of the line is equal to the slope at the elastic region. When it reaches zero, this is the plastic strain point. Where, the 
+plastic strain is measure from the yield point and the plastic strain point.
 \section{Microscopic origin of plastic deformation}
+\hspace{2em}
+To elaborate more detail about the microscopic phenomenology on plastic deformation, explaining the key idea on microscopic 
+scale of material should be done beside understanding it on a stress-strain curve. In general for a single crystal deformation, 
+the loading will create a shear strain with respect to the crystal slip plane over another. This induced shear stress will cause
+then will create a relative lateral movement from both parallel planes~\cite{taylor1934plastic}. 
+
+\hspace{2em}
+Based on theories of the equilibrium of crystal lattices, an atom should place itself in a minimum potential energy position
+with respect to its neighbors. Whenever the atom moves, it will create heat internally. These minimum potential energy
+will create "potential barriers", that restrict the atom to dislocate in between planes. As the dislocation exceed the
+potential barrier, the atoms neighborhoods will rearrange themselves by a continuous process so that it will create a 
+new equilibrium energy~\cite{taylor1934plastic}. This will create a new energy barriers, and the atoms position will not go back to
+its origin since it has a new potential barrier. To introduce the same behavior regarding the atom dislocation, 
+one should apply condition where it will dislocate the atoms until it reach the newest minimum potential barriers.
 
 \section*{Continuum Plasticity}
 \section{Equivalent stress and yield function}
+\hspace{2em}
+The idea of equivalent stress is that there are needs to describe stress state in a unified or a scalar quantity
+that can be compared to other quantities such as yield strength. 
+
 \section{Different yield criteria}
 \section{Evolution of yield locus with plastic strain}
 \section{Associated flow rule}
@@ -47,7 +81,7 @@ curve.
 According to \cite{Hill1950}, the theory of plasticity provides a framework for understanding material behavior beyond elastic limits.
 
 \bibliographystyle{plain}
-\bibliography{references}
+\bibliography{bibliography_CIBB_file.bib}
 
 \end{document}
 
