@@ -1,10 +1,15 @@
 \begin{thebibliography}{1}
 
+\bibitem{hill1950}
+Rodney Hill.
+\newblock {\em The Mathematical Theory of Plasticity}.
+\newblock Oxford University Press, Oxford, UK, 1950.
+
 \bibitem{taylor1934plastic}
 G.~I. Taylor.
-\newblock The mechanism of plastic deformation of crystals. part i.
-  theoretical.
-\newblock {\em Proceedings of the Royal Society of London. Series A, Containing
-  Papers of a Mathematical and Physical Character}, 145(855):362--387, 1934.
+\newblock {\em The Mechanism of Plastic Deformation of Crystals. Part I.
+  Theoretical}.
+\newblock Proceedings of the Royal Society of London. Series A, Containing
+  Papers of a Mathematical and Physical Character, London, UK, 1934.
 
 \end{thebibliography}
