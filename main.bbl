@@ -1,9 +1,26 @@
 \begin{thebibliography}{1}
 
-\bibitem{hill1950}
-Rodney Hill.
-\newblock {\em The Mathematical Theory of Plasticity}.
-\newblock Oxford University Press, Oxford, UK, 1950.
+\bibitem{callister2010}
+William~D. Callister.
+\newblock {\em Materials Science and Engineering: An Introduction}.
+\newblock John Wiley \& Sons, Inc., Versailles, NJ, USA, 8th edition, 2010.
+
+\bibitem{hosford2005}
+William~F. Hosford.
+\newblock {\em Mechanical Behavior of Materials}.
+\newblock Cambridge University Press, Cambridge, UK, 2nd edition, 2009.
+
+\bibitem{jahed2021cyclic}
+Hamid Jahed and Ali A.\~A. Roostaei, editors.
+\newblock {\em Cyclic Plasticity of Metals: Modeling Fundamentals and
+  Applications}.
+\newblock Elsevier, Amsterdam, Netherlands, 1st edition, 2021.
+
+\bibitem{mehani2024modified}
+Neha Mehani and Samir~Chandra Roy.
+\newblock Modified isotropic and kinematic hardening equations for 304l ss
+  under low cycle fatigue.
+\newblock {\em Computational Materials Science}, 240:112999, 2024.
 
 \bibitem{taylor1934plastic}
 G.~I. Taylor.

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  13 AUG 2025 00:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  8 SEP 2025 01:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio-2/main.tex"
-(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio-2/main.tex
+**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalReport/Plasticity-Portfolio/main.tex"
+(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalReport/Plasticity-Portfolio/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -280,32 +280,84 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<images/StressStrain.png, id=1, 477.2229pt x 318.2289pt>
+File: images/StressStrain.png Graphic file (type png)
+<use images/StressStrain.png>
+Package pdftex.def Info: images/StressStrain.png  used on input line 35.
+(pdftex.def)             Requested size: 375.80544pt x 250.60172pt.
 
 
 [1
 
-{C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/StressStrain.png>]
 
-[2] (main.bbl)
+[2]
 
-[3] (main.aux)
+[3]
+<images/TrescaSurface.png, id=23, 571.8966pt x 574.3056pt>
+File: images/TrescaSurface.png Graphic file (type png)
+<use images/TrescaSurface.png>
+Package pdftex.def Info: images/TrescaSurface.png  used on input line 183.
+(pdftex.def)             Requested size: 234.8775pt x 235.86116pt.
+
+
+[4]
+
+[5 <./images/TrescaSurface.png>]
+<images/VonMises.png, id=32, 459.8781pt x 480.3546pt>
+File: images/VonMises.png Graphic file (type png)
+<use images/VonMises.png>
+Package pdftex.def Info: images/VonMises.png  used on input line 217.
+(pdftex.def)             Requested size: 211.38832pt x 220.79721pt.
+
+
+[6 <./images/VonMises.png>]
+<images/Isotropic_Hardening.png, id=37, 612.78937pt x 276.28218pt>
+File: images/Isotropic_Hardening.png Graphic file (type png)
+<use images/Isotropic_Hardening.png>
+Package pdftex.def Info: images/Isotropic_Hardening.png  used on input line 253.
+(pdftex.def)             Requested size: 375.80544pt x 169.43404pt.
+<images/Kinematic_Hardening.png, id=38, 620.3175pt x 274.77657pt>
+File: images/Kinematic_Hardening.png Graphic file (type png)
+<use images/Kinematic_Hardening.png>
+Package pdftex.def Info: images/Kinematic_Hardening.png  used on input line 266.
+(pdftex.def)             Requested size: 375.80544pt x 166.46463pt.
+
+
+[7 <./images/Isotropic_Hardening.png> <./images/Kinematic_Hardening.png>]
+
+[8]
+
+[9]
+<images/RSS_New.png, id=53, 326.72063pt x 511.9125pt>
+File: images/RSS_New.png Graphic file (type png)
+<use images/RSS_New.png>
+Package pdftex.def Info: images/RSS_New.png  used on input line 403.
+(pdftex.def)             Requested size: 140.92793pt x 220.80547pt.
+
+
+[10 <./images/RSS_New.png>]
+
+[11] (main.bbl)
+
+[12] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4592 strings out of 469923
- 78053 string characters out of 5462358
- 469553 words of memory out of 5000000
- 31381 multiletter control sequences out of 15000+600000
- 635620 words of font info for 70 fonts, out of 8000000 for 9000
+ 4664 strings out of 469923
+ 79924 string characters out of 5462358
+ 471908 words of memory out of 5000000
+ 31452 multiletter control sequences out of 15000+600000
+ 636264 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,381b,203s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (3 pages, 125813 bytes).
+ 57i,11n,65p,806b,323s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (12 pages, 1069140 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
