@@ -2,6 +2,8 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
 \usepackage{geometry}
 \usepackage{float}
 \usepackage{booktabs}
@@ -9,6 +11,27 @@
 \usepackage{setspace} % for spacing control
 \usepackage{indentfirst}
 \usepackage{titlesec}
+\usepackage[most]{tcolorbox}
+
+\newtcbtheorem{Summary}{\bfseries Summary}{enhanced,drop shadow={black!50!white},
+  coltitle=black,
+  top=0.3in,
+  attach boxed title to top left=
+  {xshift=1.5em,yshift=-\tcboxedtitleheight/2},
+  boxed title style={size=small,colback=pink}
+}{summary}
+
+
+\newtcolorbox{summary}[2][]{%
+  enhanced,
+  drop shadow={black!50!white},
+  coltitle=black,
+  top=0.3in,
+  attach boxed title to top left={xshift=1.5em,yshift=-\tcboxedtitleheight/2},
+  boxed title style={size=small,colback=pink},
+  title={\bfseries #2}, % manual title here
+  #1
+}
 
 \setstretch{1.0}       % single line spacing (default)
 \setlength{\parskip}{0pt}   % no space between paragraphs
@@ -180,7 +203,7 @@ where the yield surface is defined by the planes where the maximum shear stress 
 criterion is shown as in figure~\ref{fig:tresca_surface}. To describe each of the conditions in the yield surface quadrants, the following conditions can be written as follows:
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{images/TrescaSurface.png}
+    \includegraphics[width=0.4\textwidth]{images/TrescaSurface.png}
     \caption{Tresca yield surface in principal stress space. The hexagonal prism represents the yield locus, with labeled axes $\sigma_1$, $\sigma_2$, and $\sigma_3$. 
     Yielding occurs when the stress state reaches the surface. Additional description of the stress state
     are shown for every quadrants line, where the arrows indicate the direction of the stress in both axis as well
@@ -214,7 +237,7 @@ $\sigma_y$. The visualization of the curve and criterion is shown as in figure~\
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{images/VonMises.png}
+    \includegraphics[width=0.4\textwidth]{images/VonMises.png}
     \caption{Von Mises yield surface in principal stress space compare to Tresca criterion. 
     The cylindrical surface represents the yield locus, with axes $\sigma_1$, $\sigma_2$, and $\sigma_3$. 
     Yielding occurs when the stress state reaches the surface. 
@@ -230,8 +253,10 @@ rather it can be also cyclic loading conditions. In this case,
 the material will experience a repetitive loading-unloading process, which evolutions of the yield locus might occur. This process can also 
 known as hardening or softening behavior (depends on the material characteristics prior to the loading). Hence, as the material
 experience a plastic deformation, the yield surface will evolve with a present of the plastic strain. This 
-evolution can be described in two ways, which are isotropic and kinematic hardening. Additionally, a combination of 
-both effects can also happen in a material, which is called combined hardening.
+evolution can be described in two ways, which are isotropic and kinematic hardening. 
+
+%%Additionally, a combination of 
+%%both effects can also happen in a material, which is called combined hardening.
 
 \subsection{Isotropic hardening}
 
@@ -250,7 +275,7 @@ $Q_\infty$ is the maximum increase in yield stress due to hardening, $b$ is a ma
 and $p$ is the accumulated plastic strain \cite{mehani2024modified}. The evolution of the yield surface can be visualized as follows:
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Isotropic_Hardening.png}
+    \includegraphics[width=0.6\textwidth]{images/Isotropic_Hardening.png}
     \caption{Isotropic hardening yield surface evolution in principal stress space. 
     The yield surface expands uniformly in all directions as plastic deformation occurs from the 
     value of yield stress or $\sigma_{A}$ to
@@ -263,7 +288,7 @@ and $p$ is the accumulated plastic strain \cite{mehani2024modified}. The evoluti
 \subsection{Kinematic hardening}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Kinematic_Hardening.png}
+    \includegraphics[width=0.6\textwidth]{images/Kinematic_Hardening.png}
     \caption{Kinematic hardening yield surface evolution in principal stress space. 
     The yield surface translates in the stress space as plastic deformation occurs from the 
     value of yield stress or $\sigma_{A}$ to
@@ -357,7 +382,7 @@ the stress state, which can be defined as follows:
     \boldsymbol{\sigma}_{i+1} = \boldsymbol{\sigma}_{i} + \boldsymbol{C} : (d \boldsymbol{\varepsilon} - d \boldsymbol{\varepsilon}^{pl})
 \end{equation}
 
-Where here, the $\boldsymbol{\sigma}_{i+1}$ is the updated stress state by using equation 20 for the plastic 
+Where here, the $\boldsymbol{\sigma}_{i+1}$ is the updated stress state by the associated flow rule plastic increment for the plastic 
 corrector case.
 
 \section*{Crystal Plasticity}
@@ -402,10 +427,9 @@ to a more phenomenological sense, the explanation can be described as following 
     \centering
     \includegraphics[width=0.3\textwidth]{images/RSS_New.png}
     \caption{Visualization of resolved shear stress on a single crystal under an applied uniaxial stress $\sigma$. 
-    The slip plane is defined by the normal vector $n$, and the slip direction is defined by the vector $m$. 
+    The slip plane is defined by the normal vector $n$, and the slip direction is defined by the vector $s$. 
     The angle between the applied stress direction and the slip plane normal is $\phi$, and the angle between 
-    the applied stress direction and the slip direction is $\lambda$. The resolved shear stress $\tau$ on the slip system 
-    is given by $\tau = \sigma \cos(\phi) \cos(\lambda)$ for scalar values. \cite{callister2010}}
+    the applied stress direction and the slip direction is $\lambda$. \cite{callister2010}}
     \label{fig:resolved_shear_stress}
 \end{figure}
 
@@ -477,10 +501,351 @@ approach can be done as follows:
 \end{enumerate}
 
 \section{Crystal plasticity flow rule}
- 
+\hspace{2em}After all the ingredients and relations are obtained, now rise the question on how to implement the flow rule in crystal plasticity
+scale. Because in a crystal plasticity model, anisotropic behavior is considered due to the facts that the crystallographic structure
+are having a specific orientation for each of them. Therefore, capturing the history-dependent parameters is important in order to
+model such behavior. The flow rule or the slip rate law can be expressed as follows:
+\begin{equation}
+    \dot{\gamma}^{(\alpha)} = \dot{\gamma}_0 \left( \frac{|\tau^{(\alpha)}|}{\tau^{(\alpha)}_{c}} \right)^{n} \text{sign}(\tau^{(\alpha)})
+\end{equation}
+
+\hspace{2em}Where $\dot{\gamma}^{(\alpha)}$ is the shear strain rate on slip system $\alpha$, $\dot{\gamma}_0$ is a reference shear 
+strain rate, $\tau^{(\alpha)}$ is the resolved shear stress on slip system $\alpha$, $\tau^{(\alpha)}_{c}$ is the 
+critical resolved shear stress (CRSS) for slip system $\alpha$, and $n$ is a rate sensitivity exponent that controls the
+sensitivity of the slip rate to the resolved shear stress. The sign function ensures that the slip rate has the same
+direction as the resolved shear stress.
+
+\hspace{2em}To connect it to the dislocation theory, by means of Orowan law, the average dislocation velocity can be expressed using
+thermally active model, which can be written as follows:
+\begin{equation}
+     v^{(\alpha)} \propto b \nu \exp \left( -\frac{\Delta G(\tau^{(\alpha)})}{kT} \right)
+\end{equation}
+
+\hspace{2em}To sum up the implementation of the crystal plasticity flow rule, 
+the shear strain rate $\dot{\gamma}^{(\alpha)}$ on each slip system will resolve the slip rate $\dot{\gamma}^{(\alpha)}$.
+This slip rate will then be used to update the plastic velocity gradient $\boldsymbol{L}^{p}$, which then
+will be used to update the plastic deformation gradient $\boldsymbol{F}^{p}$. The plastic deformation gradient
+will then be used to update the total deformation gradient $\boldsymbol{F}$, which then will be used to calculate
+the stress state in the material. This process will be repeated for each time step in the simulation. A graphical description
+of the described process is presented as follows:
+\vspace{1em}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/graphical_FlowRule.png}
+    \caption{Graphical representation of the crystal plasticity flow rule process, showing the update sequence from slip rate to stress state.}
+    \label{fig:graphical_flow_rule}
+\end{figure}
 
 \bibliographystyle{plain}
 \bibliography{bibliography_CIBB_file.bib}
+\newpage
+\section*{Appendix: Large-Language Models (LLMs) use in this report based on GPT@RUB}
 
+
+%% ---------------------------------------- %%
+
+
+
+\begin{summary}{Prompt 1: Explanation of crystal plasticity flow rule}
+\textbf{Prompt:} "Could you explain the crystal plasticity flow rule more structured and step-by step so that we get sort of like an input and output from this flow rule? And could you explain what outcomes that we need from the output for the numerical integration scheme?"
+\vspace{1em}
+
+\textbf{Response:}
+
+Absolutely! Here’s a step-by-step, structured explanation of the crystal plasticity flow rule, focusing on its role as a constitutive law in a numerical (e.g., finite element) integration scheme. I’ll highlight the inputs, outputs, and the key outcomes needed for numerical integration.
+\textbf{Step-by-step, structured explanation} of the crystal plasticity flow rule, focusing on its role as a constitutive law in numerical (e.g., finite element) integration.  
+
+\section*{1. Step-by-Step Structure of the Flow Rule}
+
+\subsection*{Step 1: Inputs}
+At each time increment:
+\begin{itemize}
+    \item Deformation gradient: \( \mathbf{F} \)  
+    \item Stress state: \( \boldsymbol{\sigma} \) or \( \boldsymbol{\tau} \)  
+    \item Slip geometry: \( \mathbf{s}^\alpha, \mathbf{m}^\alpha \)  
+    \item Internal variables: \( \tau_c^\alpha, \gamma^\alpha \), dislocation densities  
+    \item Material parameters: \( \dot{\gamma}_0, n, h^{\alpha\beta}, b \), etc.  
+\end{itemize}
+
+\subsection*{Step 2: Resolved Shear Stress}
+\[
+\tau^\alpha = \mathbf{S}^\alpha : \boldsymbol{\tau}, 
+\qquad \mathbf{S}^\alpha = \mathbf{s}^\alpha \otimes \mathbf{m}^\alpha
+\]
+
+\subsection*{Step 3: Flow Rule (Slip Rate Law)}
+\[
+\dot{\gamma}^\alpha = \dot{\gamma}_0 \left| \frac{\tau^\alpha}{\tau_c^\alpha} \right|^n \operatorname{sign}(\tau^\alpha)
+\]
+\end{summary}
+\newpage
+%% ---------------------------------------- %%
+
+\begin{summary}{Prompt 1: Explanation of crystal plasticity flow rule}
+Rate-independent case:
+\[
+\dot{\gamma}^\alpha \neq 0 \quad \text{iff} \quad |\tau^\alpha| = \tau_c^\alpha
+\]
+
+
+
+\subsection*{Step 4: Plastic Velocity Gradient}
+\[
+\mathbf{L}^p = \sum_\alpha \dot{\gamma}^\alpha \mathbf{S}^\alpha
+\]
+
+\subsection*{Step 5: Plastic Deformation Gradient}
+\[
+\mathbf{F}^p_{n+1} = \exp(\mathbf{L}^p \Delta t)\mathbf{F}^p_n
+\]
+or, small increments:
+\[
+\mathbf{F}^p_{n+1} \approx (\mathbf{I} + \mathbf{L}^p \Delta t)\mathbf{F}^p_n
+\]
+
+\subsection*{Step 6: Update Internal Variables (Hardening Law)}
+\[
+\tau_{c_{n+1}}^\alpha = \tau_c^{\alpha_n} + \sum_\beta h^{\alpha\beta} |\Delta \gamma^\beta|,
+\qquad \Delta \gamma^\beta = \dot{\gamma}^\beta \Delta t
+\]
+
+\section*{2. Summary Table: Inputs and Outputs}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Step} & \textbf{Input} & \textbf{Output} \\
+\hline
+1 & \( \mathbf{F}, \boldsymbol{\tau}, \mathbf{s}^\alpha, \mathbf{m}^\alpha, \tau_c^\alpha, \gamma^\alpha \) & -- \\
+2 & \( \boldsymbol{\tau}, \mathbf{s}^\alpha, \mathbf{m}^\alpha \) & \( \tau^\alpha \) \\
+3 & \( \tau^\alpha, \tau_c^\alpha, \dot{\gamma}_0, n \) & \( \dot{\gamma}^\alpha \) \\
+4 & \( \dot{\gamma}^\alpha, \mathbf{s}^\alpha, \mathbf{m}^\alpha \) & \( \mathbf{L}^p \) \\
+5 & \( \mathbf{L}^p, \mathbf{F}^p_n \) & \( \mathbf{F}^p_{n+1} \) \\
+6 & \( \dot{\gamma}^\alpha, \tau_c^\alpha \) & \( \tau_{c_{n+1}}^{\alpha} \) \\
+\hline
+\end{tabular}
+
+
+\section*{3. Key Outcomes for Integration}
+\begin{enumerate}
+    \item Updated plastic deformation gradient \( \mathbf{F}^p_{n+1} \)  
+    \item Updated internal variables \( \tau_{c_{n+1}}^\alpha, \gamma^\alpha_{n+1} \)  
+    \item Consistent tangent moduli (for implicit schemes)  
+\end{enumerate}
+\end{summary}
+
+
+%% ---------------------------------------- %%
+
+\begin{summary}{Prompt 1: Explanation of crystal plasticity flow rule}
+\section*{4. Flowchart (Conceptual)}
+\begin{tabular}{l}
+\textbf{Input:} $\mathbf{F}$, $\boldsymbol{\tau}$, $\mathbf{s}^\alpha$, $\mathbf{m}^\alpha$, $\tau_c^\alpha$, $\gamma^\alpha$ \\
+\quad $\downarrow$ \\
+Compute $\tau^\alpha = \mathbf{S}^\alpha : \boldsymbol{\tau}$ \\
+\quad $\downarrow$ \\
+Evaluate flow rule: $\dot{\gamma}^\alpha = \dot{\gamma}_0 \left| \frac{\tau^\alpha}{\tau_c^\alpha} \right|^n \operatorname{sign}(\tau^\alpha)$ \\
+\quad $\downarrow$ \\
+Compute $\mathbf{L}^p = \sum_\alpha \dot{\gamma}^\alpha \mathbf{S}^\alpha$ \\
+\quad $\downarrow$ \\
+Update $\mathbf{F}^p$ \\
+\quad $\downarrow$ \\
+Update $\tau_c^\alpha$, $\gamma^\alpha$ (hardening) \\
+\quad $\downarrow$ \\
+\textbf{Output:} $\mathbf{F}^p_{n+1}$, $\tau_{c_{n+1}}^\alpha$, $\gamma_{n+1}^\alpha$ \\
+\end{tabular}
+\vspace{1em}
+\section*{5. In Summary}
+\begin{itemize}
+    \item \textbf{Input:} deformation, stress, slip geometry, internal variables  
+    \item \textbf{Flow rule:} slip rates from resolved shear stress and slip resistance  
+    \item \textbf{Output:} updated \( \mathbf{F}^p \), internal variables  
+    \item \textbf{Use:} update stress, evolve history, provide tangents  
+\end{itemize}
+\end{summary}
+
+
+%% ---------------------------------------- %%
+
+\begin{summary}{Prompt 2: Explanation of Finite Strain Formulation}
+\textbf{Prompt:} "What is finite strain formulation in Crystal Plasticity?"
+\vspace{1em}
+
+\textbf{Response:}
+
+\vspace{1em}
+
+\textbf{Finite strain formulation in crystal plasticity} refers to the mathematical
+and computational framework used to model the deformation of crystalline
+materials (such as metals) when they undergo large, or finite, deformations.
+This is particularly important for accurately capturing the behavior of
+materials where the deformation is not small, and the crystal lattice undergoes
+significant rotations and stretches.
+\end{summary}
+
+\begin{summary}{Prompt 2: Explanation of Finite Strain Formulation}
+\subsection*{Key Concepts}
+
+\paragraph{1. Crystal Plasticity}
+Crystal plasticity is a theory that describes how crystals (grains) in a
+polycrystalline material deform, primarily by slip along specific
+crystallographic planes and directions (slip systems). It accounts for the
+anisotropic (direction-dependent) nature of crystal deformation.
+
+\paragraph{2. Finite Strain Kinematics}
+In the finite strain regime, the total deformation is large, so linear
+approximations are not valid. The deformation gradient tensor $\mathbf{F}$ is
+used to describe the transformation from the reference (undeformed) to the
+current (deformed) configuration.
+
+\paragraph{3. Multiplicative Decomposition}
+A central idea in finite strain crystal plasticity is the multiplicative
+decomposition of the deformation gradient:
+\begin{equation}
+    \mathbf{F} = \mathbf{F}^e \mathbf{F}^p,
+\end{equation}
+where
+\begin{itemize}
+  \item $\mathbf{F}^e$: Elastic part (lattice stretching and rotation),
+  \item $\mathbf{F}^p$: Plastic part (slip and twinning on crystallographic planes).
+\end{itemize}
+This decomposition separates the reversible (elastic) and irreversible (plastic)
+parts of the deformation, which is crucial for modeling crystal behavior at
+large strains.
+
+\paragraph{4. Slip Systems and Plastic Flow}
+Plastic deformation is modeled as the sum of shearing on multiple slip systems:
+\begin{equation}
+    \dot{\mathbf{F}}^p (\mathbf{F}^p)^{-1}
+    = \sum_{\alpha} \dot{\gamma}^{\alpha}\,
+      \mathbf{s}^{\alpha} \otimes \mathbf{m}^{\alpha},
+\end{equation}
+where
+\begin{itemize}
+  \item $\dot{\gamma}^{\alpha}$: Shear rate on slip system $\alpha$,
+  \item $\mathbf{s}^{\alpha}$: Slip direction,
+  \item $\mathbf{m}^{\alpha}$: Slip plane normal.
+\end{itemize}
+
+\paragraph{5. Stress and Constitutive Laws}
+Stress measures compatible with finite strains (e.g., Kirchhoff or Cauchy
+stress) are used. Constitutive laws relate the resolved shear stress on each
+slip system to the slip rate, often using flow rules and hardening laws.
+
+\paragraph{6. Numerical Implementation}
+Finite strain crystal plasticity is often implemented in finite element codes
+to simulate the behavior of polycrystalline aggregates under large
+deformations, such as in metal forming, texture evolution, and failure
+analysis.
+\end{summary}
+
+\begin{summary}{Prompt 2: Explanation of Finite Strain Formulation}
+\subsection*{Summary Table}
+
+\begin{center}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Aspect & Small Strain C.Plasticity & Finite Strain C.Plasticity \\
+\midrule
+Deformation    & Linear (small)            & Nonlinear (large) \\
+Kinematics     & Additive decomposition    & Multiplicative decomposition \\
+Strain Measures& Linear strain tensor      & Deformation gradient, Green--Lagrange \\
+Stress Measures& Cauchy stress             & Cauchy, Kirchhoff, or Piola--Kirchhoff \\
+Applications   & Low-strain problems       & Large deformations, texture evolution \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{In Summary}
+\noindent
+\textbf{Finite strain formulation in crystal plasticity} is a nonlinear,
+physically based approach that models the large deformation behavior of crystals
+by decomposing the total deformation into elastic and plastic parts, tracking
+slip on crystallographic planes, and using appropriate stress and strain
+measures. This allows for accurate simulation of the mechanical response and
+microstructural evolution of crystalline materials under large strains.
+\end{summary}
+
+\begin{summary}{Prompt 3: Explanation of Orowan's Law}
+\textbf{Prompt:} "Could you explain the orowan's law in crystal plasticity in more phenomenologically case?"
+\vspace{1em}
+
+\textbf{Response:}
+
+\subsection*{What We Observe}
+When you deform a metal (for example, by bending a paperclip), you notice that:
+\begin{itemize}
+  \item At first, it bends easily (elastic deformation).
+  \item If you bend it further, it stays bent (plastic deformation).
+  \item The more you bend it, the harder it gets to bend further (work hardening).
+\end{itemize}
+
+\subsection*{What’s Happening Inside?}
+\begin{itemize}
+  \item Plastic deformation in metals is not due to the breaking of atomic bonds
+  all at once, but rather due to the movement of dislocations---tiny line
+  defects in the crystal structure.
+  \item As you deform the metal, these dislocations move, multiply, and interact.
+\end{itemize}
+\end{summary}
+
+\begin{summary}{Prompt 3: Explanation of Orowan's Law}
+\subsection*{Orowan’s Law Connects the Dots}
+Orowan’s law provides a simple, observable relationship:
+\[
+\text{Plastic strain rate} = 
+\text{(Number of moving dislocations)} \times
+\text{(Distance per event)} \times
+\text{(Velocity)}
+\]
+
+Mathematically:
+\begin{equation}
+  \dot{\varepsilon}_p = \rho_m \, b \, v ,
+\end{equation}
+where
+\begin{itemize}
+  \item $\dot{\varepsilon}_p$: Plastic strain rate (rate of permanent deformation),
+  \item $\rho_m$: Density of mobile dislocations,
+  \item $b$: Burgers vector magnitude (dislocation step size),
+  \item $v$: Average dislocation velocity (depends on stress and temperature).
+\end{itemize}
+
+\subsection*{Phenomenological Implications}
+\begin{itemize}
+  \item \textbf{Work Hardening:} As deformation progresses, $\rho_m$ increases.
+  More dislocations are available, but they hinder each other’s motion,
+  increasing strength.
+  \item \textbf{Rate Sensitivity:} Faster deformation requires higher
+  dislocation velocity $v$, often demanding higher applied stress.
+  \item \textbf{Temperature Effects:} At higher temperatures, dislocations move
+  more easily (higher $v$), making the material softer.
+\end{itemize}
+
+\subsection*{Everyday Example}
+Imagine a crowded hallway (the crystal) with people (dislocations) trying to
+move from one end to the other:
+\begin{itemize}
+  \item With few people, motion is easy (low dislocation density).
+  \item With many people, collisions make motion harder (work hardening).
+  \item If everyone moves faster (higher strain rate), congestion increases,
+  requiring more effort to move.
+\end{itemize}
+\end{summary}
+
+\newpage
+\begin{summary}{Prompt 3: Explanation of Orowan's Law}
+\subsection*{Summary}
+Phenomenologically, Orowan’s law tells us:
+\begin{itemize}
+  \item The rate of plastic deformation is directly related to the number of
+  moving dislocations, their travel distance, and their velocity.
+  \item It explains key behaviors such as work hardening, rate sensitivity, and
+  temperature dependence in metals.
+\end{itemize}
+
+\noindent
+\textbf{In essence:} Orowan’s law bridges what we observe (macroscopic metal
+deformation) with the underlying mechanism (dislocation motion), providing a
+simple and powerful explanation of plasticity in crystalline materials.
+\end{summary}
 \end{document} 
 
