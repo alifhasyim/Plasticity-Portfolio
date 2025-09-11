@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  8 SEP 2025 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  11 SEP 2025 22:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalReport/Plasticity-Portfolio/main.tex"
-(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalReport/Plasticity-Portfolio/main.tex
+**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio-3/main.tex"
+(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio-3/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -641,23 +641,22 @@ Package pdftex.def Info: images/StressStrain.png  used on input line 58.
 <images/TrescaSurface.png, id=62, 571.8966pt x 574.3056pt>
 File: images/TrescaSurface.png Graphic file (type png)
 <use images/TrescaSurface.png>
-Package pdftex.def Info: images/TrescaSurface.png  used on input line 206.
+Package pdftex.def Info: images/TrescaSurface.png  used on input line 210.
 (pdftex.def)             Requested size: 187.89914pt x 188.68893pt.
 
 
 [4]
-<images/VonMises.png, id=67, 459.8781pt x 480.3546pt>
-File: images/VonMises.png Graphic file (type png)
-<use images/VonMises.png>
-Package pdftex.def Info: images/VonMises.png  used on input line 240.
-(pdftex.def)             Requested size: 187.89914pt x 196.265pt.
-
 
 [5 <./images/TrescaSurface.png>]
+<images/VonMises.png, id=71, 459.8781pt x 480.3546pt>
+File: images/VonMises.png Graphic file (type png)
+<use images/VonMises.png>
+Package pdftex.def Info: images/VonMises.png  used on input line 244.
+(pdftex.def)             Requested size: 164.41711pt x 171.73279pt.
 <images/Isotropic_Hardening.png, id=72, 612.78937pt x 276.28218pt>
 File: images/Isotropic_Hardening.png Graphic file (type png)
 <use images/Isotropic_Hardening.png>
-Package pdftex.def Info: images/Isotropic_Hardening.png  used on input line 278.
+Package pdftex.def Info: images/Isotropic_Hardening.png  used on input line 282.
 (pdftex.def)             Requested size: 281.85587pt x 127.07869pt.
 
 
@@ -665,21 +664,21 @@ Package pdftex.def Info: images/Isotropic_Hardening.png  used on input line 278.
 <images/Kinematic_Hardening.png, id=78, 620.3175pt x 274.77657pt>
 File: images/Kinematic_Hardening.png Graphic file (type png)
 <use images/Kinematic_Hardening.png>
-Package pdftex.def Info: images/Kinematic_Hardening.png  used on input line 291.
+Package pdftex.def Info: images/Kinematic_Hardening.png  used on input line 295.
 (pdftex.def)             Requested size: 281.85587pt x 124.85162pt.
 
 
 [7 <./images/Isotropic_Hardening.png> <./images/Kinematic_Hardening.png>]
 
 [8]
-<images/RSS_New.png, id=89, 326.72063pt x 511.9125pt>
-File: images/RSS_New.png Graphic file (type png)
-<use images/RSS_New.png>
-Package pdftex.def Info: images/RSS_New.png  used on input line 428.
-(pdftex.def)             Requested size: 140.92793pt x 220.80547pt.
-
 
 [9]
+<images/RSS_New.png, id=92, 326.72063pt x 511.9125pt>
+File: images/RSS_New.png Graphic file (type png)
+<use images/RSS_New.png>
+Package pdftex.def Info: images/RSS_New.png  used on input line 432.
+(pdftex.def)             Requested size: 117.43875pt x 183.99934pt.
+
 
 [10 <./images/RSS_New.png>]
 
@@ -687,7 +686,7 @@ Package pdftex.def Info: images/RSS_New.png  used on input line 428.
 <images/graphical_FlowRule.png, id=100, 521.7894pt x 203.5605pt>
 File: images/graphical_FlowRule.png Graphic file (type png)
 <use images/graphical_FlowRule.png>
-Package pdftex.def Info: images/graphical_FlowRule.png  used on input line 534.
+Package pdftex.def Info: images/graphical_FlowRule.png  used on input line 538.
 (pdftex.def)             Requested size: 375.80544pt x 146.61003pt.
  (main.bbl
 
@@ -705,7 +704,7 @@ Overfull \vbox (11.8347pt too high) has occurred while \output is active []
 
 
 [17]
-Overfull \hbox (12.7968pt too wide) detected at line 798
+Overfull \hbox (12.7968pt too wide) detected at line 802
 [] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B [] ^^B []
  []
 
@@ -723,14 +722,14 @@ L3 programming layer <2025-04-29>
  ) 
 Here is how much of TeX's memory you used:
  23033 strings out of 469923
- 500197 string characters out of 5462358
+ 500245 string characters out of 5462358
  891720 words of memory out of 5000000
  49470 multiletter control sequences out of 15000+600000
  638734 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,14n,105p,681b,1274s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,14n,105p,687b,1274s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (20 pages, 1219970 bytes).
+Output written on main.pdf (20 pages, 1220103 bytes).
 PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

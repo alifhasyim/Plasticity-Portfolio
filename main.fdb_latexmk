@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1757328812.5139 "main.aux" "main.bbl" "main" 1757329228.47045 0
-  "./bibliography_CIBB_file.bib" 1757284501 3675 c36f4c39e8ffae9ae151cc68c557b2ec ""
+["bibtex main"] 1757622251.91719 "main.aux" "main.bbl" "main" 1757622254.87218 0
+  "./bibliography_CIBB_file.bib" 1757621931 3675 c36f4c39e8ffae9ae151cc68c557b2ec ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1757329227 6440 848745b908e879b98f4a095eae13c09c "pdflatex"
+  "main.aux" 1757622254 6440 bbdc3e6fbc397bcbeeb34eade14febe5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1757329225.50904 "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalReport/Plasticity-Portfolio/main.tex" "main.pdf" "main" 1757329228.47108 0
+["pdflatex"] 1757622252.1509 "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio-3/main.tex" "main.pdf" "main" 1757622254.8728 0
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757325588 83609 ebbc432e6cbbb238d39535255db2c8bd ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1748250225 14064 854914f65c8453ac3c66784526470fa3 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748199441 13166137 27c084a345814fe9230bd168a7204098 ""
@@ -190,17 +190,17 @@
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1730400552 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalReport/Plasticity-Portfolio/main.tex" 1757329224 46346 ae13e3a5ca6b4ba170915303f3a41cfa ""
-  "images/Isotropic_Hardening.png" 1757250096 111609 e0a54978f1e90e0c0565637687dd8746 ""
-  "images/Kinematic_Hardening.png" 1757253319 114353 21dcdd1a76ec6a82b488de2b3f16b37e ""
-  "images/RSS_New.png" 1757284353 34182 613dea69e0c1aeb870c4aa2be0d3ab76 ""
-  "images/StressStrain.png" 1757285877 523407 bb4831dfa43c3cca706307fc47a42dc0 ""
-  "images/TrescaSurface.png" 1757240371 104979 663e46e3397a3b576f5971f54d3bbe4c ""
-  "images/VonMises.png" 1757242425 139214 fc6b0872497ef6eef3ce972095508ef9 ""
-  "images/graphical_FlowRule.png" 1757324767 125062 5745a76c95fc8d70001d21924b7d7d13 ""
-  "main.aux" 1757329227 6440 848745b908e879b98f4a095eae13c09c "pdflatex"
-  "main.bbl" 1757328812 1171 4c066ab1b7bd182bba080543588128aa "bibtex main"
-  "main.tex" 1757329224 46346 ae13e3a5ca6b4ba170915303f3a41cfa ""
+  "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/FinalAssignment/Plasticity-Portfolio-3/main.tex" 1757622248 46704 a70ebb0b19edf686c082488c8ae8a9f1 ""
+  "images/Isotropic_Hardening.png" 1757621931 111609 e0a54978f1e90e0c0565637687dd8746 ""
+  "images/Kinematic_Hardening.png" 1757621931 114353 21dcdd1a76ec6a82b488de2b3f16b37e ""
+  "images/RSS_New.png" 1757621931 34182 613dea69e0c1aeb870c4aa2be0d3ab76 ""
+  "images/StressStrain.png" 1757621931 523407 bb4831dfa43c3cca706307fc47a42dc0 ""
+  "images/TrescaSurface.png" 1757621931 104979 663e46e3397a3b576f5971f54d3bbe4c ""
+  "images/VonMises.png" 1757621931 139214 fc6b0872497ef6eef3ce972095508ef9 ""
+  "images/graphical_FlowRule.png" 1757621931 125062 5745a76c95fc8d70001d21924b7d7d13 ""
+  "main.aux" 1757622254 6440 bbdc3e6fbc397bcbeeb34eade14febe5 "pdflatex"
+  "main.bbl" 1757622252 1171 4c066ab1b7bd182bba080543588128aa "bibtex main"
+  "main.tex" 1757622248 46704 a70ebb0b19edf686c082488c8ae8a9f1 ""
   (generated)
   "main.aux"
   "main.log"
